@@ -11,7 +11,7 @@ body, html {
 .chat {
     display: flex;
     flex-direction: column;
-    height: calc(var(--vh, 1vh) * 100); /* здесь баг — можно заменить на calc(var(--vh) * 100) */
+    height: 100vh; /* здесь баг — можно заменить на calc(var(--vh) * 100) */
     /* height: calc(var(--vh) * 100); */ /* раскомментируй для фикса */
     /*overflow: hidden;*/
     background: #f0f0f0;

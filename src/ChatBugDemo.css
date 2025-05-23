@@ -13,10 +13,13 @@ body, html {
     flex-direction: column;
     height: calc(var(--vh, 1vh) * 100); /* здесь баг — можно заменить на calc(var(--vh) * 100) */
     /* height: calc(var(--vh) * 100); */ /* раскомментируй для фикса */
-    overflow: hidden;
+    /*overflow: hidden;*/
     background: #f0f0f0;
 }
-
+.chat-wrap {
+    flex: 1;
+    overflow: auto;
+}
 .chat-messages {
     flex: 1;
     overflow-y: auto;

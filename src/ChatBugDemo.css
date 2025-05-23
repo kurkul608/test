@@ -16,10 +16,7 @@ body, html {
     overflow: hidden;
     background: #f0f0f0;
 }
-.chat-wrap {
-    /*flex: 1;*/
-    /*overflow: auto;*/
-}
+
 .chat-messages {
     flex: 1;
     overflow-y: auto;

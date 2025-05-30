@@ -1,7 +1,8 @@
 import './ChatBugDemo.css';
+import {useTelegramViewportHeight} from "./useTelegramViewportHeight.ts";
 
 export default function ChatBugDemo() {
-
+    useTelegramViewportHeight();
     return (
         <div className="chat">
             <div className="chat-messages">

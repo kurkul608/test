@@ -1,6 +1,4 @@
-:root {
-    --vh: 1vh;
-}
+:root { --tg-viewport-height: 100vh; }
 
 body, html {
     margin: 0;
@@ -11,8 +9,7 @@ body, html {
 .chat {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* здесь баг — можно заменить на calc(var(--vh) * 100) */
-    /* height: calc(var(--vh) * 100); */ /* раскомментируй для фикса */
+    height:var(--tg-viewport-height);
     overflow: hidden;
     background: #f0f0f0;
 }

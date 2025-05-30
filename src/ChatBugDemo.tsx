@@ -6,7 +6,7 @@ export default function ChatBugDemo() {
     return (
         <div className="chat">
             <div className="chat-messages">
-                <div className="message">Привет! Это тест на баг с клавиатурой.</div>
+                <div className="message">Привет! Это тест на баг с клавиатурой. UPD8</div>
                 <div className="message">Попробуй нажать на инпут в Telegram Mini App 😉</div>
             </div>
             <form className="chat-input-form">
